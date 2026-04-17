@@ -39,6 +39,10 @@ export default function Hero() {
           backgroundSize: "24px 24px",
         }}
       />
+      <div
+        aria-hidden
+        className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-b from-transparent to-white pointer-events-none"
+      />
 
       <div className="relative max-w-7xl mx-auto px-6 py-20 md:py-28 grid md:grid-cols-2 gap-12 items-center">
         <motion.div
