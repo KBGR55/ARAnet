@@ -28,12 +28,6 @@ export default function AboutHero() {
         }}
       />
       <div className="relative max-w-6xl mx-auto px-6 text-center text-white">
-        <span
-          className="inline-block px-4 py-1.5 text-xs font-bold rounded-full mb-5"
-          style={{ backgroundColor: "#95c11f", color: "#1d1d1b" }}
-        >
-          Conócenos
-        </span>
         <h1 className="text-4xl md:text-6xl font-black tracking-tight">
           Sobre ARANET
         </h1>
