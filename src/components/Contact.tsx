@@ -1,23 +1,23 @@
 export default function Contact() {
   return (
-    <section id="contacto" className="py-16 bg-white">
-      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+    <section id="contacto" className="py-12 sm:py-16 md:py-20 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 grid md:grid-cols-2 gap-10 md:gap-12 items-center">
         <div>
-          <h2 className="text-3xl md:text-4xl font-extrabold">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold">
             Estamos en El Pangui
           </h2>
-          <div className="mt-6 space-y-4 text-zinc-600">
-            <p className="text-lg">
+          <div className="mt-5 sm:mt-6 space-y-4 text-zinc-600">
+            <p className="text-base sm:text-lg">
               <strong className="text-zinc-900">Dirección:</strong>
               <br />
               Benigno Cruz entre Cordillera del Cóndor y Loja.
             </p>
-            <p className="text-lg">
+            <p className="text-base sm:text-lg">
               <strong className="text-zinc-900">Ubicación:</strong>
               <br />
               El Pangui · Zamora Chinchipe · Ecuador
             </p>
-            <p className="text-lg">
+            <p className="text-base sm:text-lg">
               <strong className="text-zinc-900">WhatsApp / Celular:</strong>
               <br />
               <a

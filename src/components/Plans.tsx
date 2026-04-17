@@ -36,17 +36,17 @@ const plans: Plan[] = [
 
 export default function Plans() {
   return (
-    <section id="planes" className="py-4 bg-white">
-      <div className="max-w-7xl mx-auto px-6">
+    <section id="planes" className="py-12 sm:py-16 md:py-20 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center max-w-2xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-extrabold">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold">
             Planes diseñados para ti
           </h2>
-          <p className="mt-4 text-zinc-600">
+          <p className="mt-3 sm:mt-4 text-zinc-600 text-sm sm:text-base">
             Elige la velocidad perfecta para tu hogar o negocio.
           </p>
         </div>
-        <div className="mt-16 grid md:grid-cols-3 gap-6">
+        <div className="mt-10 sm:mt-12 md:mt-16 grid sm:grid-cols-2 md:grid-cols-3 gap-5 sm:gap-6">
           {plans.map((p) => (
             <PlanCard key={p.name} plan={p} />
           ))}

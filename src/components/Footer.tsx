@@ -44,8 +44,8 @@ const docs = [
 export default function Footer() {
   return (
     <footer className="text-white/80" style={{ backgroundColor: "#1d1d1b" }}>
-      <div className="max-w-7xl mx-auto px-6 py-16 grid md:grid-cols-4 gap-10">
-        <div className="md:col-span-2">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12 sm:py-16 grid sm:grid-cols-2 md:grid-cols-4 gap-8 sm:gap-10">
+        <div className="sm:col-span-2">
           <span className="font-extrabold text-3xl tracking-wide text-white">
             ARAnet
           </span>
@@ -132,7 +132,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-white/10">
-        <div className="max-w-7xl mx-auto px-6 py-6 text-xs text-white/60 text-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 text-xs text-white/60 text-center">
           © {new Date().getFullYear()} ARANET · Todos los derechos reservados.
         </div>
       </div>

@@ -6,9 +6,17 @@ import HistorySection from "@/components/HistorySection";
 import SlogansQuote from "@/components/SlogansQuote";
 
 export const metadata: Metadata = {
-  title: "Sobre nosotros — ARANET",
+  title: "Sobre nosotros",
   description:
-    "Conoce la misión, visión y la historia de ARANET, la empresa de fibra óptica en El Pangui, Zamora Chinchipe.",
+    "Conoce la misión, visión y la historia de ARANET: tres ingenieros que llevaron fibra óptica a El Pangui, Zamora Chinchipe desde el 11 de abril de 2024.",
+  alternates: { canonical: "/sobre-nosotros" },
+  openGraph: {
+    title: "Sobre nosotros — ARANET",
+    description:
+      "La historia de ARANET, proveedor de fibra óptica en El Pangui, Zamora Chinchipe.",
+    url: "/sobre-nosotros",
+    type: "website",
+  },
 };
 
 export default function SobreNosotrosPage() {

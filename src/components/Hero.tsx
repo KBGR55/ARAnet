@@ -44,35 +44,18 @@ export default function Hero() {
         className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-b from-transparent to-white pointer-events-none"
       />
 
-      <div className="relative max-w-7xl mx-auto px-6 py-20 md:py-28 grid md:grid-cols-2 gap-12 items-center">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 py-16 sm:py-20 md:py-28 grid md:grid-cols-2 gap-10 md:gap-12 items-center">
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
         >
-          <motion.span
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-            className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-bold mb-6 border"
-            style={{
-              backgroundColor: "rgba(149,193,31,0.15)",
-              borderColor: "rgba(149,193,31,0.4)",
-              color: "#5f7d14",
-            }}
-          >
-            <span
-              className="w-2 h-2 rounded-full animate-pulse"
-              style={{ backgroundColor: "#95c11f" }}
-            />
-            Fibra óptica en El Pangui
-          </motion.span>
 
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.15 }}
-            className="text-4xl md:text-5xl lg:text-6xl font-black tracking-tight leading-[1.05]"
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-tight leading-[1.08]"
             style={{ color: "#1d1d1b" }}
           >
             Conéctate a la velocidad del futuro,{" "}
@@ -84,7 +67,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.25 }}
-            className="mt-6 text-lg md:text-xl text-zinc-600 max-w-xl"
+            className="mt-5 sm:mt-6 text-base sm:text-lg md:text-xl text-zinc-600 max-w-xl"
           >
             Internet de fibra óptica confiable y humano para los hogares y
             negocios de El Pangui, Zamora Chinchipe.
@@ -94,18 +77,18 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.35 }}
-            className="mt-10 flex flex-col sm:flex-row gap-4"
+            className="mt-8 sm:mt-10 flex flex-col sm:flex-row gap-3 sm:gap-4"
           >
             <a
               href="#planes"
-              className="rounded-full px-8 py-3.5 font-semibold transition hover:opacity-90 hover:scale-105 text-center text-white shadow-lg"
+              className="rounded-full px-6 sm:px-8 py-3 sm:py-3.5 font-semibold transition hover:opacity-90 md:hover:scale-105 text-center text-white shadow-lg"
               style={{ backgroundColor: "#185c88" }}
             >
               Ver planes
             </a>
             <a
               href="/sobre-nosotros"
-              className="rounded-full border-2 px-8 py-3.5 font-semibold text-center transition hover:bg-white"
+              className="rounded-full border-2 px-6 sm:px-8 py-3 sm:py-3.5 font-semibold text-center transition hover:bg-white"
               style={{ borderColor: "#185c88", color: "#185c88" }}
             >
               Conocer ARANET
