@@ -9,6 +9,10 @@
   Fibra óptica para los hogares y negocios de El Pangui, Zamora Chinchipe.
 </p>
 
+<p align="center">
+  🌐 <strong>Sitio en producción:</strong> <a href="https://aranet-sigma.vercel.app/">aranet-sigma.vercel.app</a>
+</p>
+
 ---
 
 Landing oficial de **ARANET**, proveedor de internet de fibra óptica con base en El Pangui, provincia de Zamora Chinchipe, Ecuador.
@@ -105,7 +109,9 @@ public/
 
 ## Deploy
 
-El proyecto está listo para desplegarse en **Vercel** sin configuración adicional: importar el repositorio desde el dashboard de Vercel y se detecta Next.js automáticamente.
+Desplegado en **Vercel**: [https://aranet-sigma.vercel.app/](https://aranet-sigma.vercel.app/)
+
+El proyecto está listo para desplegarse sin configuración adicional: importar el repositorio desde el dashboard de Vercel y se detecta Next.js automáticamente.
 
 ## Contacto
 

@@ -73,7 +73,7 @@ export default function Contact() {
             </a>
           </div>
         </div>
-        <div className="rounded-3xl overflow-hidden border border-zinc-200 shadow-lg aspect-[4/3]">
+        <div className="rounded-3xl overflow-hidden border border-zinc-200 shadow-lg aspect-4/3">
           <iframe
             title="Ubicación ARANET - El Pangui"
             src="https://www.google.com/maps?q=El+Pangui+Zamora+Chinchipe+Ecuador&output=embed"
