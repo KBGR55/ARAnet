@@ -4,12 +4,13 @@ export type Plan = {
   name: string;
   speed: string;
   unit: string;
+  price: string;
   features: string[];
   highlight?: boolean;
 };
 
 export default function PlanCard({ plan }: { plan: Plan }) {
-  const { name, speed, unit, features, highlight } = plan;
+  const { name, speed, unit, price, features, highlight } = plan;
   return (
     <div
       className="rounded-3xl p-8 border-2 bg-white transition flex flex-col hover:-translate-y-1"
@@ -34,6 +35,12 @@ export default function PlanCard({ plan }: { plan: Plan }) {
           {speed}
         </span>
         <span className="text-xl font-bold text-zinc-700">{unit}</span>
+      </div>
+      <div className="mt-3 flex items-baseline gap-1">
+        <span className="text-3xl font-extrabold" style={{ color: "#1d1d1b" }}>
+          ${price}
+        </span>
+        <span className="text-sm font-medium text-zinc-500">/mes</span>
       </div>
       <ul className="mt-6 space-y-3 text-sm flex-1 text-zinc-600">
         {features.map((feat) => (

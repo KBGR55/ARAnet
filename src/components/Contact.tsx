@@ -1,11 +1,23 @@
+import Image from "next/image";
+
 export default function Contact() {
   return (
     <section id="contacto" className="py-12 sm:py-16 md:py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 grid md:grid-cols-2 gap-10 md:gap-12 items-center">
         <div>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold">
-            Estamos en El Pangui
-          </h2>
+          <div className="flex items-center gap-3 sm:gap-4">
+            <Image
+              src="/logo/logo.gif"
+              alt="ARANET"
+              width={80}
+              height={80}
+              unoptimized
+              className="h-12 sm:h-20 md:h-35 w-auto shrink-0"
+            />
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold">
+              Estamos en El Pangui
+            </h2>
+          </div>
           <div className="mt-5 sm:mt-6 space-y-4 text-zinc-600">
             <p className="text-base sm:text-lg">
               <strong className="text-zinc-900">Dirección:</strong>

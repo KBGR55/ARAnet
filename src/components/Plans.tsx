@@ -5,7 +5,9 @@ const plans: Plan[] = [
     name: "Básico",
     speed: "150",
     unit: "MB",
+    price: "19.99",
     features: [
+      "Instalación gratis",
       "Ideal para hogares pequeños",
       "Navegación fluida y estable",
       "Soporte técnico local",
@@ -15,7 +17,9 @@ const plans: Plan[] = [
     name: "Home",
     speed: "200",
     unit: "MB",
+    price: "25.00",
     features: [
+      "Instalación gratis",
       "Perfecto para streaming y trabajo remoto",
       "Wi-Fi de alto rendimiento",
       "Soporte prioritario",
@@ -26,7 +30,10 @@ const plans: Plan[] = [
     name: "Premium",
     speed: "300",
     unit: "MB",
+    price: "30.00",
     features: [
+      "Instalación gratis",
+      "Soporte técnico",
       "Máxima velocidad para toda la familia",
       "Ideal para gamers y creadores",
       "Atención personalizada",
