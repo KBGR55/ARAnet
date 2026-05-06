@@ -144,6 +144,12 @@ export default function RootLayout({
         className="min-h-full flex flex-col bg-white text-[#1d1d1b]"
         suppressHydrationWarning
       >
+        <div
+          style={{ display: "none" }}
+          dangerouslySetInnerHTML={{
+            __html: "<!-- Desarrollador: https://github.com/KBGR55 -->",
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
