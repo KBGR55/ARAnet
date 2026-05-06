@@ -127,4 +127,3 @@ El proyecto está listo para desplegarse sin configuración adicional: importar 
 - **WhatsApp:** [098 099 2866](https://wa.me/+593980992866)
 - **Facebook:** [ARAnetPangui](https://www.facebook.com/ARAnetPangui)
 - **Instagram:** [@aranet_pangui](https://www.instagram.com/aranet_pangui/)
-- **Web:** [aranet.tech](https://aranet.tech/)
