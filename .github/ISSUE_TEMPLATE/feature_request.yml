@@ -1,0 +1,27 @@
+name: ✨ Propuesta de mejora
+description: Sugiere una nueva funcionalidad o mejora para la landing
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: ¿Qué problema soluciona?
+      placeholder: Los visitantes no encuentran rápidamente el plan que les conviene…
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Propuesta
+      description: Describe la solución que tienes en mente.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativas consideradas
+  - type: textarea
+    id: extra
+    attributes:
+      label: Contexto adicional o referencias visuales
