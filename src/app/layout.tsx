@@ -34,7 +34,6 @@ export const metadata: Metadata = {
     "internet hogar El Pangui",
     "Navega sin límites",
     "ARAnet",
-    "aranet.tech",
   ],
   authors: [{ name: "ARANET", url: siteUrl }],
   creator: "ARANET",
@@ -126,7 +125,6 @@ const jsonLd = {
   sameAs: [
     "https://www.facebook.com/ARAnetPangui",
     "https://www.instagram.com/aranet_pangui/",
-    "https://aranet.tech/",
   ],
   contactPoint: {
     "@type": "ContactPoint",
