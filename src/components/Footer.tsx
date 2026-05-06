@@ -118,16 +118,6 @@ export default function Footer() {
                 098 099 2866
               </a>
             </li>
-            <li>
-              <a
-                href="https://aranet.tech/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-[#95c11f]"
-              >
-                aranet.tech
-              </a>
-            </li>
           </ul>
         </div>
       </div>
