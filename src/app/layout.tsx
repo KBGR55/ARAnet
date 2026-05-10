@@ -35,7 +35,10 @@ export const metadata: Metadata = {
     "Navega sin límites",
     "ARAnet",
   ],
-  authors: [{ name: "ARANET", url: siteUrl }],
+  authors: [
+    { name: "ARANET", url: siteUrl },
+    { name: "KBGR55", url: "https://kbgr55.github.io/" },
+  ],
   creator: "ARANET",
   publisher: "ARANET",
   applicationName: "ARANET",
