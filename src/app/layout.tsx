@@ -153,7 +153,7 @@ export default function RootLayout({
         <div
           style={{ display: "none" }}
           dangerouslySetInnerHTML={{
-            __html: "<!-- Desarrollador: https://github.com/KBGR55 -->",
+            __html: "<!-- Desarrollado por KBGR55 — https://kbgr55.github.io/ -->",
           }}
         />
         <script

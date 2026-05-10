@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  🌐 <strong>Sitio en producción:</strong> <a href="https://aranet-sigma.vercel.app/">aranet-sigma.vercel.app</a>
+  🌐 <strong>Sitio en producción:</strong> <a href="https://aranet.tech/">aranet.tech</a>
 </p>
 
 ---
@@ -117,7 +117,7 @@ public/
 
 ## Deploy
 
-Desplegado en **Vercel**: [https://aranet-sigma.vercel.app/](https://aranet-sigma.vercel.app/)
+Desplegado en **Vercel**: [https://aranet.tech/](https://aranet.tech/)
 
 El proyecto está listo para desplegarse sin configuración adicional: importar el repositorio desde el dashboard de Vercel y se detecta Next.js automáticamente.
 
