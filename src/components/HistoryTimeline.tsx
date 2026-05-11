@@ -8,7 +8,7 @@ const milestones = [
     date: "Orígenes",
     title: "De las aulas a una visión compartida",
     Icon: GraduationCap,
-    text: "Tres Ingenieros en Electrónica y Telecomunicaciones —Alexander Sócola, Alexander Santos y Ronald Torres— transformaron su amistad universitaria en una visión empresarial compartida, impulsados por el deseo de trascender la teoría académica.",
+    text: "Un grupo de Ingenieros en Electrónica y Telecomunicaciones transformaron su amistad universitaria en una visión empresarial compartida, impulsados por el deseo de trascender la teoría académica.",
   },
   {
     date: "Plan estratégico",

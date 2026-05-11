@@ -109,11 +109,6 @@ const jsonLd = {
   logo: `${siteUrl}/logo/logo.png`,
   slogan: "Tecnología que une, Internet que conecta",
   foundingDate: "2024-04-11",
-  founders: [
-    { "@type": "Person", name: "Alexander Sócola" },
-    { "@type": "Person", name: "Alexander Santos" },
-    { "@type": "Person", name: "Ronald Torres" },
-  ],
   address: {
     "@type": "PostalAddress",
     streetAddress: "Benigno Cruz entre Cordillera del Cóndor y Loja",

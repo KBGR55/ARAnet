@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import AboutHero from "@/components/AboutHero";
 import MissionVision from "@/components/MissionVision";
-import Founders from "@/components/Founders";
 import HistorySection from "@/components/HistorySection";
 import SlogansQuote from "@/components/SlogansQuote";
 
@@ -28,7 +27,6 @@ export default function SobreNosotrosPage() {
           <MissionVision />
         </div>
       </section>
-      <Founders />
       <HistorySection />
       <SlogansQuote />
     </>
